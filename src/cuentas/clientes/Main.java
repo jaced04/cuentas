@@ -11,7 +11,7 @@ public class Main {
         double saldoActual;
 
         cuenta1 = new Cuenta("Rafael Nadal Parera","1000-2365-85-1230456789",2500,0);
-        
+        System.out.println("Bienvenido a su aplicación bancaria");
         System.out.println("El saldo actual es:"+ cuenta1.estado() );
 
         try {
@@ -27,6 +27,5 @@ public class Main {
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
-        System.out.println("Gracias por utilizar la aplicación");
     }
 }
